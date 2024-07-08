@@ -1,0 +1,20 @@
+{
+  "name": "bot-wa",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@mengkodingan/ckptw": "^4.2.0"
+  },
+  "trustedDependencies": [
+    "protobufjs"
+  ]
+}
