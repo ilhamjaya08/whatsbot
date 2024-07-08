@@ -12,7 +12,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@mengkodingan/ckptw": "^4.2.0"
+    "@mengkodingan/ckptw": "^4.2.0",
+    "dotenv": "^16.4.5"
   },
   "trustedDependencies": [
     "protobufjs"
