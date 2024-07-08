@@ -3,9 +3,9 @@ import { Client, Events, MessageType } from "@mengkodingan/ckptw";
 
 const bot = new Client({
     prefix: "!",
-    printQRInTerminal: false,
+    printQRInTerminal: false, // set to true if you want to use qr
     readIncommingMsg: true,
-    usePairingCode: true,
+    usePairingCode: true, // set to false if you want using qr
     phoneNumber: 'YOUR_PHONE-NUM' // phone number, e.g 62xxxxx
 });
 
