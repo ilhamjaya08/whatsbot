@@ -6,7 +6,7 @@ const bot = new Client({
     printQRInTerminal: false,
     readIncommingMsg: true,
     usePairingCode: true,
-    phoneNumber: '6289603982787' // phone number, e.g 62xxxxx
+    phoneNumber: 'YOUR_PHONE-NUM' // phone number, e.g 62xxxxx
 });
 
 bot.ev.once(Events.ClientReady, (m) => {
